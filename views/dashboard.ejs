@@ -1,3 +1,9 @@
+<% if(user.role == "Admin"){ %>
 <h1 class="mt-4">Dashboard</h1>
-<p class="lead mb-3">Welcome <%= user.name %></p>
+<p class="lead mb-3">Welcome Admin !</p>
 <a href="/logout" class="btn btn-secondary">Logout</a>
+<% } else {%>
+    <h1 class="mt-4">Dashboard</h1>
+    <p class="lead mb-3">Welcome <%= user.name %></p>
+    <a href="/logout" class="btn btn-secondary">Logout</a>
+<% } %>
