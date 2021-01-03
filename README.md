@@ -7,10 +7,10 @@ I found very less documentation for linking Passport.js with MySQL database, so 
 The npm packages used are: <br>
 express <br>
 express-ejs-layouts(you can use handlebars or pug) <br>
-mysql
-bcrypt(For hashing password)
-flash(For flash messages)
-express-session
-passport-local
-passport(For authentication during login)
+mysql <br>
+bcrypt(For hashing password) <br>
+flash(For flash messages) <br>
+express-session <br>
+passport-local <br>
+passport(For authentication during login) <br>
 
